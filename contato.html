@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Contato</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="estilo.css">
+
+		<style>
+
+	.container {
+	    max-width: 600px;
+    	margin: 0 auto;
+    	padding: 20px;
+    	background-color: #ffffff;
+    	border-radius: 8px;
+    	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	}
+
+		input, select, textarea {
+				width: 100%;
+				padding: 10px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-sizing: border-box;
+				font-size: 16px;
+				margin-top: 5px;
+			}
+		textarea {
+    		resize: vertical;
+    		height: 100px;
+			}
+
+
+		</style>
+
+	</head>
+	<body class="background">
+		    <!-- Botão Voltar -->
+		<button class="button-custom5" onclick="window.history.back();">Voltar</button>
+
+		<h1 class="h1">Fale Comigo!</h1>
+        <p class="p">Caso queira entrar em contato, por favor, preencha o formulário abaixo.</p>
+
+				<div class="container">
+					<form>
+						<div class="cols">
+							<div class="col">
+								<div class="form-group" paddin>
+									<input type="text" placeholder="Nome" required>
+								</div>
+							</div>
+							
+							<div class="col">
+								<div class="form-group">
+									<input type="email" placeholder="E-mail">
+								</div>
+							</div>
+
+
+							<div class="col">
+								<div class="form-group">
+									<input placeholder="Telefone" type="number">
+								</div>
+							</div>
+							
+							<div class="col">
+								<div class="form-group">
+									<select>
+										<option>Selecione uma opção</option>
+										<option>Duvidas</option>
+										<option>Sugestão</option>
+										<option>Outras Informações</option>
+									</select>
+								</div>
+							</div>
+						</div>
+
+						<div class="form-group">
+							<textarea placeholder="Preencha suas dúvidas"></textarea>
+						</div>
+
+						<div class="form-group">
+							<button class="button-custom7"> Enviar Contato</button>
+						</div>
+					</form>
+				</div>
+	</body>
+</html>

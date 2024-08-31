@@ -1,0 +1,171 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.h1{
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+    font-family: Arial;
+    font-size: 2rem; /*utilizando unidade respondiva*/
+    font-weight: bold;
+}
+
+.p{
+    text-align: center;
+    color: #666;
+    font-family: Arial;
+    font-size: 2rem;
+}
+
+.p2{
+    text-align: center;
+    font-family: Arial;
+    font-size: 2rem;
+    padding: 20px;
+    color: #666;
+    margin: 0;
+    white-space: normal;
+}
+
+.p3{
+    text-align: center;
+    font-family: Arial;
+    font-size: 1rem;
+    padding: 10px;
+
+}
+
+.p4{
+    font-family: Arial;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+
+a {
+    text-decoration: none; /* Para remover o sublinhado apos link ser visitado*/
+    color: white;
+
+}
+/* Aplicado na tab Educacao*/
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    }
+
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+.section ul li {
+    margin-bottom: 10px;
+}
+.section {
+    margin-bottom: 20px;
+}
+.section h2 {
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+}
+.section ul {
+    list-style: none;
+    padding: 0;
+}
+.section ul li {
+    margin-bottom: 10px;
+}
+
+
+/* Aplicado em todas as tabs*/
+.background {
+    background: url(images/background.jpg); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 10px;
+    margin-top: 1rem;
+    }
+    
+.button-custom5 {
+    padding: 20px 40px; 
+    background-color: #98b899fd; 
+    color: white; border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    position:absolute;
+    right: 1700px;
+    top: 40px
+}
+
+.button-custom6 {
+    padding: 20px 40px; 
+    background-color: #98b899fd; 
+    color: white; border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    position:absolute;
+    right: 50px;
+    top: 30px
+}
+
+.button-custom7 {
+    padding: 20px 40px; 
+    background-color: #98b899fd; 
+    color: white; border: none; 
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    position:center;
+
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    max-width: 100%; /*responsividade da imagem*/
+ }
+
+
+ /* Imagem circular*/
+.photo img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
+
+
+
